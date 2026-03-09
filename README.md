@@ -10,12 +10,6 @@ Este proyecto es una aplicación móvil desarrollada en **Android Studio** utili
 * **Panel de Edición:** Permite al becario modificar en tiempo real el título y la descripción de los procedimientos, sobrescribiendo los datos por defecto.
 * **Navegación Intuitiva:** Implementación de `BottomNavigationView` para transiciones fluidas entre las 5 interfaces principales.
 
-##  Capturas de Pantalla
-> *Sugerencia: Sube las imágenes de tu app a una carpeta llamada `screenshots` en GitHub y vincúlalas aquí.*
-
-| Registro | Bitácora | Información IT |
-| :---: | :---: | :---: |
-| ![Registro](screenshots/registro.png) | ![Lista](screenshots/lista.png) | ![Info](screenshots/info.png) |
 
 ##  Tecnologías Utilizadas
 
