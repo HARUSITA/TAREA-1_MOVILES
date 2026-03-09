@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_input" type="id" />
+    <item name="btn_send" type="id" />
+    <item name="my_list_view" type="id" />
+    <item name="cb_demo" type="id" />
+    <item name="rg_demo" type="id" />
+    <item name="rb1" type="id" />
+    <item name="rb2" type="id" />
+    <item name="sw_demo" type="id" />
+    <item name="pb_demo" type="id" />
+    <item name="tv_user_name_display" type="id" />
+</resources>

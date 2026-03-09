@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUÍA PARA BECARIO IT"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="En este espacio podrás ingresar tu nombre para hacer más interactiva la navegación"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Escribe algo aquí">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_show_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Probar Texto" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Esta aplicación es una guía para procedimientos IT, en ella encontraras diversas
+funcionalidades como lo son: Procedimeinto para configuración de equipos
+\n*Procedimeinto para instalación de impresoras
+\n*Configuración de usuarios
+\n*Alta de un nuevo usuario
+\n*Migración de datos y archivos"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btn_image"
+        android:layout_width="364dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image_it" />
+    <Button
+        android:id="@+id/btn_next_interface"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Continuar a Procedimientos"
+        android:textColor="@color/it_primary" />
+
+
+</LinearLayout>
